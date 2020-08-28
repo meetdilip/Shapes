@@ -350,6 +350,19 @@
          offset="1"
          id="stop4239-85" />
     </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter926"
+       x="-1.0793368e-05"
+       width="1.0000216"
+       y="-1.080664e-05"
+       height="1.0000216">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="9.0824091e-05"
+         id="feGaussianBlur928" />
+    </filter>
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
@@ -358,15 +371,15 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="699"
+     inkscape:window-height="694"
      inkscape:window-width="1366"
-     inkscape:snap-bbox="false"
-     showgrid="true"
+     inkscape:snap-bbox="true"
+     showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="16.899702"
-     inkscape:cx="100.58563"
-     inkscape:zoom="2.7140793"
+     inkscape:cx="91.801708"
+     inkscape:zoom="3.3661803"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      borderopacity="1.0"
@@ -374,11 +387,13 @@
      pagecolor="#eff0f1"
      id="base"
      inkscape:snap-object-midpoints="true"
-     inkscape:object-paths="true"
-     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:snap-smooth-nodes="false"
      inkscape:snap-center="true"
      inkscape:snap-global="true"
-     inkscape:snap-intersection-paths="true">
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-midpoints="true">
     <inkscape:grid
        spacingy="1.0666667"
        spacingx="1.0666667"
@@ -409,7 +424,7 @@
      inkscape:label="Layer 1">
     <g
        id="active-center"
-       style="fill:#ffb600;fill-opacity:1">
+       style="fill:#ffb600;fill-opacity:1;opacity:1">
       <rect
          ry="1.5019451"
          y="4.8980551"
@@ -420,52 +435,29 @@
          style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145" />
     </g>
     <g
+       transform="translate(45.214019,-0.00443662)"
+       style="opacity:1;fill:#ffb600;fill-opacity:1"
+       id="inactive-center">
+      <rect
+         style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145"
+         id="rect904"
+         width="20.19553"
+         height="20.170731"
+         x="2.8639803"
+         y="4.8980551"
+         ry="1.5019451" />
+    </g>
+    <path
        id="hover-center"
-       style="fill:#ffb600;fill-opacity:1">
-      <rect
-         ry="1.5063654"
-         style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145"
-         id="rect909"
-         width="20.19553"
-         height="20.170731"
-         x="25.597994"
-         y="4.8936348" />
-    </g>
-    <g
-       id="inactive-center"
-       style="fill:#ffb600;fill-opacity:1">
-      <rect
-         ry="1.5063807"
-         y="4.8936195"
-         x="48.077999"
-         height="20.170731"
-         width="20.19553"
-         id="rect911"
-         style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145" />
-    </g>
-    <g
+       d="M 25.597994,25.064365 H 45.793526 L 35.69576,4.8936352 Z"
+       style="fill:#ffc434;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter926)" />
+    <path
        id="pressed-center"
-       style="fill:#ffb600;fill-opacity:1">
-      <rect
-         ry="1.5063578"
-         style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145"
-         id="rect913"
-         width="20.19553"
-         height="20.170731"
-         x="74.011292"
-         y="4.8936424" />
-    </g>
-    <g
-       id="deactivated-center"
-       style="fill:#ffb600;fill-opacity:1">
-      <rect
-         ry="1.506354"
-         y="4.8936462"
-         x="96.768173"
-         height="20.170731"
-         width="20.19553"
-         id="rect915"
-         style="opacity:1;fill:#ffb600;fill-opacity:1;stroke-width:1.26145" />
-    </g>
+       d="M 74.011289,25.064373 H 94.206821 L 84.109055,4.8936428 Z"
+       style="fill:#ffc434;fill-opacity:1;stroke:none;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffb600;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 96.768165,25.064377 H 116.96371 L 106.86594,4.8936466 Z"
+       id="deactivated-center" />
   </g>
 </svg>
