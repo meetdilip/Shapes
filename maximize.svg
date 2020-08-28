@@ -364,12 +364,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.1182396"
+     inkscape:zoom="3.6463595"
      inkscape:cx="84.865343"
-     inkscape:cy="9.3355501"
+     inkscape:cy="9.8840424"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      inkscape:snap-bbox="false"
      inkscape:window-width="1366"
      inkscape:window-height="699"
@@ -419,20 +419,21 @@
          y="4.8980551" />
     </g>
     <g
-       id="hover-center">
+       id="hover-center"
+       style="fill:#00e300;fill-opacity:1">
       <rect
-         ry="1.5063654"
+         ry="10.085365"
          y="4.8936348"
          x="25.597994"
          height="20.170731"
          width="20.19553"
          id="rect909"
-         style="opacity:1;fill:#00d400;fill-opacity:1;stroke-width:1.26145" />
+         style="opacity:1;fill:#00e300;fill-opacity:1;stroke-width:1.26145" />
     </g>
     <g
        id="inactive-center">
       <rect
-         ry="1.5063807"
+         ry="10.085365"
          style="opacity:1;fill:#00d400;fill-opacity:1;stroke-width:1.26145"
          id="rect911"
          width="20.19553"
@@ -441,20 +442,21 @@
          y="4.8936195" />
     </g>
     <g
-       id="pressed-center">
+       id="pressed-center"
+       style="fill:#00e300;fill-opacity:1">
       <rect
-         ry="1.5063578"
+         ry="10.085365"
          y="4.8936424"
          x="74.011292"
          height="20.170731"
          width="20.19553"
          id="rect913"
-         style="opacity:1;fill:#00d400;fill-opacity:1;stroke-width:1.26145" />
+         style="opacity:1;fill:#00e300;fill-opacity:1;stroke-width:1.26145" />
     </g>
     <g
        id="deactivated-center">
       <rect
-         ry="1.506354"
+         ry="10.085365"
          style="opacity:1;fill:#00d400;fill-opacity:1;stroke-width:1.26145"
          id="rect915"
          width="20.19553"
